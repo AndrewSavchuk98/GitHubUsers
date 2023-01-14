@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GitHubUsersTestTask</string>
+    <string name="retry">Retry</string>
+    <string name="avatar_image">Avatar image</string>
 </resources>
