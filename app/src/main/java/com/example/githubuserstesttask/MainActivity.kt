@@ -7,7 +7,9 @@ import com.example.githubuserstesttask.presentation.Navigator
 import com.example.githubuserstesttask.presentation.UserUi
 import com.example.githubuserstesttask.presentation.detail.UserDetailFragment
 import com.example.githubuserstesttask.presentation.main.UsersListFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity(), Navigator {
     private lateinit var binding: ActivityMainBinding
 

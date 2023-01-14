@@ -10,8 +10,9 @@ import com.example.githubuserstesttask.R
 import com.example.githubuserstesttask.databinding.FragmentUsersListBinding
 import com.example.githubuserstesttask.presentation.UserUi
 import com.example.githubuserstesttask.presentation.navigator
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class UsersListFragment : Fragment() {
     private var _binding: FragmentUsersListBinding? = null
     private val binding get() = _binding!!
