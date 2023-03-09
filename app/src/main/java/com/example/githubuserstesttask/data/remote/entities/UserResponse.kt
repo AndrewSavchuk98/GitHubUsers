@@ -1,4 +1,6 @@
-package com.example.githubuserstesttask.data.entities
+package com.example.githubuserstesttask.data.remote.entities
+
+import com.example.githubuserstesttask.domain.entities.User
 
 data class UserResponse(
     val avatar_url: String,
@@ -19,4 +21,9 @@ data class UserResponse(
     val subscriptions_url: String,
     val type: String,
     val url: String
-)
+) {
+    fun toUser(): User {
+        return User(avatar_url, login, id.toString())
+    }
+
+}
