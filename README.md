@@ -17,3 +17,23 @@ UserDetails (экран с информацией о пользователе):
 Язык Java/Kotlin/Swift
 Код поместить в репозиторий на GitHub/Bitbucket/GitLab
 Неоднозначности задания трактуются на усмотрение разработчика
+
+
+Task: GitHub Users App
+
+Main Screen:
+
+Users (list of all Github users). Use the API https://developer.github.com/v3/users/#get-all-users
+Display avatar, login (title), id (subtitle) for each list item.
+On click of a list item, navigate to UserDetails screen.
+Implement pagination and Pull-to-refresh.
+UserDetails Screen:
+
+Use the API https://developer.github.com/v3/users/#get-a-single-user
+Display fields: Avatar, Name, Email, Organization (if available), Following count, Followers count, Account creation date.
+Requirements:
+
+Structured code (architecture pattern at the discretion of the candidate)
+Language: Java/Kotlin/Swift
+Code to be uploaded to a repository on GitHub/Bitbucket/GitLab
+Ambiguities in the task are to be interpreted at the developer's discretion.
